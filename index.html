@@ -27,6 +27,11 @@ a.card:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .clarity .swatch::after{content:"";position:absolute;right:28px;bottom:26px;width:120px;height:74px;border-radius:16px;background:#1D5BFF;box-shadow:0 20px 40px rgba(29,91,255,.35)}
 .pulse .swatch{background:linear-gradient(120deg,#FF7A45,#FF3D8B 50%,#B57BFF)}
 .pulse .swatch::after{content:"";position:absolute;left:30px;bottom:24px;width:70px;height:70px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#FFD3E4 40%,#FF6FA8)}
+.nordic .swatch{background:linear-gradient(180deg,#F3F5F8,#E4E9EF)}
+.nordic .swatch::after{content:"";position:absolute;left:50%;top:50%;width:150px;height:46px;transform:translate(-50%,-50%);border-radius:14px;background:linear-gradient(180deg,#FFFFFF,#D8E2EC);box-shadow:0 22px 40px rgba(40,60,90,.18),inset 0 -6px 0 #9FC6E8}
+.horizon .swatch{background:linear-gradient(160deg,#FFB547 0%,#FF7A59 35%,#F05A7E 60%,#2BB3A6 100%);clip-path:polygon(0 0,100% 0,100% 70%,0 100%)}
+.forest .swatch{background:radial-gradient(60% 80% at 80% 20%,#1F6B4A,transparent 70%),#0E3B2A}
+.forest .swatch::after{content:"";position:absolute;left:28px;bottom:26px;width:130px;height:44px;border-radius:999px;background:#7CF0B5}
 .body{padding:22px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
 .name{font:800 22px Manrope,Inter,sans-serif;letter-spacing:-.01em}
 .desc{color:var(--muted);font-size:15px;flex:1}
@@ -38,7 +43,7 @@ a.card:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 <body>
 <div class="wrap">
   <div class="brand"><span class="dot"></span>Nutraver</div>
-  <h1>Три дизайн-концепции сайта и личного кабинета</h1>
+  <h1>Дизайн-концепции сайта и личного кабинета</h1>
   <p class="lead">VPS и выделенные серверы в дата-центрах Equinix: Германия, Нидерланды, Швеция. Каждую концепцию можно прокликать целиком: главная страница, регистрация, заказ сервера, оплата картой или криптовалютой и управление сервером. Языки EN и RU переключаются в шапке сайта.</p>
   <div class="grid">
     <a class="card aurora" href="aurora/">
